@@ -61,4 +61,5 @@ canvas{
     border-radius: 10px;
     width: 100%;
     float: center;
+    background-image: url("../imagens/a.gif");
 }

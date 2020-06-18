@@ -10,7 +10,7 @@ var Largura = canvas.width;
 
 //Objeto = chao do cenario (atributos e metodos)
 var chao = {
-	y: 550,
+	y: canvas.height - 10,
 	altura: 50,
 	desenha: function(){
 		ctx.fillStyle = "#000000";
@@ -28,7 +28,7 @@ var personagem = {
 	//após atribuir os valores referentes a tamanho é necessário variaveis para o pulo do personagem acontecer
 	gravidade:1.0,
 	velocidade:0,
-	forcaPulo:15,
+	forcaPulo:10,
 	qntPulo:0,
 
 	atualiza: function(){
@@ -41,7 +41,11 @@ var personagem = {
 			this.y = chao.y - this.altura;
 			//quando atinge o chão zera o número de pulos
 			this.qntPulo = 0;
+		}
 
+		if(this.y < 0)
+		{
+			this.y = this.altura;
 		}
 	},
 
@@ -68,7 +72,7 @@ var perImage = new Image();
 perImage.onload = function() {
   perReady = true;
 };
-perImage.src = "pe.gif";
+perImage.src = "imagens/pe.gif";
 
 //conferir  se ja foi feito o download da imagem a partir do link
 var funReady = false;
@@ -76,7 +80,7 @@ var funImage = new Image();
 funImage.onload = function() {
   funReady = true;
 };
-funImage.src = "a.gif"
+funImage.src = "imagens/transparent.gif"
 
 
 // evento do clique do mouse, chama o metodo pular do objeto personagem
@@ -113,6 +117,7 @@ function atualiza (){
 
 //função desenha
 function desenha(){
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	//borda
 	canvas.style.border = "1px solid #000";
 	//conferi se a imagem já está pronta, caso esteja desenha-a
@@ -131,7 +136,6 @@ function desenha(){
 
 	//desenhar o chao
 	chao.desenha();
-
 }
 
 //inicia
