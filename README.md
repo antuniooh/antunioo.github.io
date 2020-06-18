@@ -6,7 +6,7 @@ Projeto semestral da matéria de Desenvolvimento Web, ministrada no Centro Unive
 
 Nay's Adventure é um jogo muito simples e divertido. O intuito é acumular o maior número de pulos sem tocar o chão. A partir do ponto em que o chão é tocado, o score zera e o usuário começa denovo.
 
-Para acumular o mior número de pontos o usuário usará o botão direito do seu mouse para realizar o pulo. O jogo não tem fim, o usuário pode se divertir até não desejar mais. Sua gameplay simples é também viciante
+Para acumular o maior número de pontos o usuário usará o botão direito do seu mouse para realizar o pulo ou clicará na tela. O jogo não tem fim, o usuário pode se divertir até não desejar mais. Sua gameplay simples é também viciante.
 
 Apenas Pule!
 
