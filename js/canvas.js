@@ -16,7 +16,6 @@ var chao = {
 		ctx.fillStyle = "#000000";
 		ctx.fillRect(0,this.y, Largura, this.altura);
 	}
-
 };
 
 //Objeto = personagem (atributos e metodos)
