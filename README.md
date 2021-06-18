@@ -1,4 +1,4 @@
-p align="center">
+<p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/canvasGame">
 
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/canvasGame">
@@ -19,9 +19,9 @@ p align="center">
 </p>
 
 <p align="center">
-  <img alt="JavaScript" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-  <img alt="HTML" src="https://img.shields.io/badge/HTML-E95420?style=for-the-badge&logo=html&logoColor=white"/>
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-darkgreen?style=for-the-badge&logo=CSS&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"/>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-darkblue?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
 
