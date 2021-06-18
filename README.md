@@ -50,7 +50,7 @@ To accumulate the highest number of points, the user will use the right mouse bu
 
 Just Jump!
 
-![app](https://github.com/antuniooh/canvasGame/blob/master/.github/app.gif)
+![app](https://github.com/antuniooh/canvasGame/blob/master/imagens/app.gif)
 
 
 <!-- HOW TO RUN -->
