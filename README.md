@@ -1,23 +1,73 @@
-# Nay's Adventure
+p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/canvasGame">
 
-Projeto semestral da matéria de Desenvolvimento Web, ministrada no Centro Universitário FEI. Consiste num jogo programado dentro de um canvas de uma página HTML.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/canvasGame">
+  
+  <a href="https://github.com/antuniooh/canvasGame/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/canvasGame">
+  </a>
+  
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/canvasGame">
+</p>
 
-## Funcionalidade
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/antuniooh/canvasGame">
+    <img src="imagens/logo.png" alt="Logo" width="550">
+  </a>
+</p>
 
-Nay's Adventure é um jogo muito simples e divertido. O intuito é acumular o maior número de pulos sem tocar o chão. A partir do ponto em que o chão é tocado, o score zera e o usuário começa denovo.
+<p align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-E95420?style=for-the-badge&logo=html&logoColor=white"/>
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-darkgreen?style=for-the-badge&logo=CSS&logoColor=white"/>
+</p>
 
-Para acumular o maior número de pontos o usuário usará o botão direito do seu mouse para realizar o pulo ou clicará na tela. O jogo não tem fim, o usuário pode se divertir até não desejar mais. Sua gameplay simples é também viciante.
 
-Apenas Pule!
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#-about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#-documentation">Documentation</a>
+    </li>
+    <li>
+      <a href="#-how-to-run">How To Run</a>
+    </li>
+  </ol>
+</details>
 
-![image](https://images-na.ssl-images-amazon.com/images/I/41HXUK8edZL.png)
 
-## Execução
+<!-- ABOUT THE PROJECT -->
+## 💻 About The Project
+Nay's Adventure is a very simple and fun game. The aim is to accumulate as many jumps as possible without touching the ground. From the point where the ground is touched, the score resets and the user starts again.
 
-Para jogar o game basta abrir o arquivo index.html no seu browser de preferência e inserir corretamente os dados de acesso. Outro jeito de executar é apenas abrir o link:
+To accumulate the highest number of points, the user will use the right mouse button to perform the jump or click on the screen. The game has no end, the user can have fun until he doesn't want to anymore. Its simple gameplay is also addictive.
 
-[PlayGame](https://antuniooh.github.io/canvasGame/) e se divirta!
+Just Jump!
 
-[google-image]:https://images-na.ssl-images-amazon.com/images/I/41HXUK8edZL.png
+![app](https://github.com/antuniooh/canvasGame/blob/master/.github/app.gif)
 
- 
+
+<!-- HOW TO RUN -->
+## 🚀 How To Run
+
+⚠️ For a better experience, open the project in the following link: https://antuniooh.github.io/canvasGame/ ⚠️
+
+### Terminal
+```bash
+
+# Clone the repository
+$ git clone https://github.com/antuniooh/canvasGame.git
+
+# Access the project folder in your terminal / cmd
+$ cd canvasGame
+
+# Open HTMl
+$ google-chrome index.html
+
+```
